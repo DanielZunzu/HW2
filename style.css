@@ -1,0 +1,161 @@
+* {
+    /* Свойства для сброса начальных стилей элементов */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    color: #303030;
+}
+
+header {
+    /* Стили для хедера */
+    padding: 23px 0;
+    background-color:#2965f1;
+}
+
+header span {
+    /* Стили для текста в хедере IT-INCUBATOR */
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-section {
+    /* Стили для первой секции */
+    background: #fafaff;
+    padding: 60px 0;
+    height: 100vh;
+}
+
+.main-title {
+    /* Стили для заголовка в первой секции */
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    margin: 20px 0;
+}
+
+.main-text {
+    /* Стили для текста в первой секции */
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
+}
+
+.main-image {
+    /* Стили для изображения в первой секции */
+    max-width: 715px;
+}
+
+
+.about-section {
+    /* Стили для второй секции */
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+select {
+    /* Стили для выпадающего списка */
+    width: 150px;
+    padding: 9px 12px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    appearance: none;
+    background-image: url("./assets/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: right 15px top 50%;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+}
+
+.section-title {
+    /* Стили для заголовков во второй секции */
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    margin: 25px 0;
+}
+
+.frameworks-list {
+    /* Стили для маркированного списка во второй секции */
+    list-style-image: url(./assets/arrow.svg);
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+}
+
+.books-list {
+    /* Стили для нумерованного списка во второй секции */
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    padding-left: 20px;
+}
+
+.label {
+    /* Стили для подписей чекбоксов */
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030; 
+}
+
+.text-field {
+    /* Стили для односточного поля ввода текста */
+    width: 330px;
+    padding: 8px 12px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
+}
+
+.btn {
+    /* Стили для кнопки */
+    border: none;
+    border-radius: 5px;
+    width: 125px;
+    background: #2965f1;
+    padding: 10px 27px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.line {
+    /* Стили для линии */
+    margin: 60px 0;
+}
+
+table {
+    /* Стили для таблицы */
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-collapse: collapse;
+    font-weight: 400;
+    font-size: 14px;
+    color: #303030;
+}
+
+th, td {
+    /* Стили для ячеек таблицы */
+    padding: 12px 15px;
+}
+
+footer {
+    /* Стили для футера */
+    background-color:rgba(163, 167, 255, 0.3);
+    padding: 26px 0;
+}
+
+.footer-link {
+    /* Стили для футера */
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+}
